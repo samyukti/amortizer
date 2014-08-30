@@ -1,10 +1,11 @@
 module Amortizer
 
   require 'bigdecimal'
+  require 'bigdecimal/util'
 
   class Loan
     attr_accessor :decimals
-  
+
     def initialize(principal, rate, term)
       @principal = principal
       @rate      = rate
