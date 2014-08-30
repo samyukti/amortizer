@@ -1,6 +1,6 @@
 module Amortizer
 
-  require 'bigdecimal/util'
+  require 'bigdecimal'
 
   class Loan
     attr_accessor :decimals
